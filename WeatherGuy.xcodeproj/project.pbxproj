@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1DA4719F20D1471000275A9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4719E20D1471000275A9F /* AppDelegate.swift */; };
-		1DA471A120D1471000275A9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA471A020D1471000275A9F /* ViewController.swift */; };
+		1DA471A120D1471000275A9F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA471A020D1471000275A9F /* MainViewController.swift */; };
 		1DA471A420D1471000275A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA471A220D1471000275A9F /* Main.storyboard */; };
 		1DA471A620D1471200275A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA471A520D1471200275A9F /* Assets.xcassets */; };
 		1DA471A920D1471200275A9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DA471A720D1471200275A9F /* LaunchScreen.storyboard */; };
 		1DA471B420D1471200275A9F /* WeatherGuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA471B320D1471200275A9F /* WeatherGuyTests.swift */; };
 		1DA471BF20D1471200275A9F /* WeatherGuyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA471BE20D1471200275A9F /* WeatherGuyUITests.swift */; };
+		1DA471CD20D149F700275A9F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA471CC20D149F700275A9F /* SplashViewController.swift */; };
+		B44D5E1683CCFB9BE1AD2CD4 /* Pods_WeatherGuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4CF54B2A3F4C4BA04F95F5 /* Pods_WeatherGuy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D64FBD320D1757200E152E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D64FBDA20D1779400E152E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D64FBED20D1788C00E152E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA4719B20D1471000275A9F /* WeatherGuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA4719E20D1471000275A9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DA471A020D1471000275A9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DA471A020D1471000275A9F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1DA471A320D1471000275A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DA471A520D1471200275A9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DA471A820D1471200275A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,12 @@
 		1DA471BA20D1471200275A9F /* WeatherGuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherGuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA471BE20D1471200275A9F /* WeatherGuyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherGuyUITests.swift; sourceTree = "<group>"; };
 		1DA471C020D1471200275A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA471CC20D149F700275A9F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		20BDD6588F17005C4581D555 /* Pods-WeatherGuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGuy.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherGuy/Pods-WeatherGuy.release.xcconfig"; sourceTree = "<group>"; };
+		8709D51826744E20F08CB4EB /* Pods-WeatherGuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGuy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherGuy/Pods-WeatherGuy.debug.xcconfig"; sourceTree = "<group>"; };
+		D9DFC2802211E4EC8C7BDB96 /* Pods_WeatherGuyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherGuyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07FB7CD5BAC0FB55FCA8377 /* Pods_WeatherGuyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherGuyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4CF54B2A3F4C4BA04F95F5 /* Pods_WeatherGuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherGuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B44D5E1683CCFB9BE1AD2CD4 /* Pods_WeatherGuy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D64FBFA20D2E6DC00E152E7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1DA471AA20D1471200275A9F /* Info.plist */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1D64FBFC20D2E71F00E152E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1DA471CC20D149F700275A9F /* SplashViewController.swift */,
+				1DA471A020D1471000275A9F /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		1DA4719220D1471000275A9F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				1DA471B220D1471200275A9F /* WeatherGuyTests */,
 				1DA471BD20D1471200275A9F /* WeatherGuyUITests */,
 				1DA4719C20D1471000275A9F /* Products */,
+				A38E741FBAF091AE79145057 /* Pods */,
+				9452ECB2D5CCD223D08ECBF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				1DA4719E20D1471000275A9F /* AppDelegate.swift */,
-				1DA471A020D1471000275A9F /* ViewController.swift */,
 				1DA471A220D1471000275A9F /* Main.storyboard */,
 				1DA471A520D1471200275A9F /* Assets.xcassets */,
 				1DA471A720D1471200275A9F /* LaunchScreen.storyboard */,
-				1DA471AA20D1471200275A9F /* Info.plist */,
+				1D64FBFC20D2E71F00E152E7 /* ViewControllers */,
+				1D64FBFA20D2E6DC00E152E7 /* Common */,
 			);
 			path = WeatherGuy;
 			sourceTree = "<group>";
@@ -125,6 +156,28 @@
 			path = WeatherGuyUITests;
 			sourceTree = "<group>";
 		};
+		9452ECB2D5CCD223D08ECBF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D64FBED20D1788C00E152E7 /* Alamofire.framework */,
+				1D64FBDA20D1779400E152E7 /* Alamofire.framework */,
+				1D64FBD320D1757200E152E7 /* Alamofire.framework */,
+				EF4CF54B2A3F4C4BA04F95F5 /* Pods_WeatherGuy.framework */,
+				E07FB7CD5BAC0FB55FCA8377 /* Pods_WeatherGuyTests.framework */,
+				D9DFC2802211E4EC8C7BDB96 /* Pods_WeatherGuyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A38E741FBAF091AE79145057 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8709D51826744E20F08CB4EB /* Pods-WeatherGuy.debug.xcconfig */,
+				20BDD6588F17005C4581D555 /* Pods-WeatherGuy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DA471C320D1471200275A9F /* Build configuration list for PBXNativeTarget "WeatherGuy" */;
 			buildPhases = (
+				44CEA8E98842C22D2DB3D379 /* [CP] Check Pods Manifest.lock */,
 				1DA4719720D1471000275A9F /* Sources */,
 				1DA4719820D1471000275A9F /* Frameworks */,
 				1DA4719920D1471000275A9F /* Resources */,
+				42F321C08D39639F5C3F1B7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,12 +306,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42F321C08D39639F5C3F1B7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WeatherGuy/Pods-WeatherGuy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeatherGuy/Pods-WeatherGuy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44CEA8E98842C22D2DB3D379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherGuy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1DA4719720D1471000275A9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DA471A120D1471000275A9F /* ViewController.swift in Sources */,
+				1DA471CD20D149F700275A9F /* SplashViewController.swift in Sources */,
+				1DA471A120D1471000275A9F /* MainViewController.swift in Sources */,
 				1DA4719F20D1471000275A9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +525,12 @@
 		};
 		1DA471C420D1471200275A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8709D51826744E20F08CB4EB /* Pods-WeatherGuy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5JMK9TXKZ;
-				INFOPLIST_FILE = WeatherGuy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeatherGuy/Common/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +544,12 @@
 		};
 		1DA471C520D1471200275A9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BDD6588F17005C4581D555 /* Pods-WeatherGuy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5JMK9TXKZ;
-				INFOPLIST_FILE = WeatherGuy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WeatherGuy/Common/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
